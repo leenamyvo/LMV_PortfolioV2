@@ -1,0 +1,122 @@
+/**/
+/* future-proofed scrollbar styling properties ------------------------- */
+* { /* Works on Firefox */
+    scrollbar-width: thin;
+    scrollbar-color: #ffdab9ff rgb(43, 42, 41, 0.938);
+}
+
+*::-webkit-scrollbar { /* Works on Chrome, Edge, and Safari */
+width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+background: rgba(43, 42, 41, 0.938);
+}
+*::-webkit-scrollbar-thumb {
+background-color: #ffdab9ff;
+border-radius: 20px;
+border: 3px solid rgba(43, 42, 41, 0.938);
+}
+
+/* custom toolbar content ----------------------------- */
+.customtoolbar { /* custom toolbar */
+    background: rgb(0, 0, 0); /* toolbar fill color */
+    width: 100%; /* set toolbar to max page width w/o horizontal scrollbar */
+    height: auto; /* toolbar height */
+    position: fixed; /*keeps toolbar at top when scrolling */
+    top: 0; /* aligns toolbar to topmost page */
+    
+    /* content spacing placement */
+    display: flex;
+    justify-content: center; /* centers links vertically */
+    align-items: center; /* centers links vertically */
+}
+
+#logo {
+    display: inline-block;
+    position: relative;
+    height: auto;
+}
+#logo img { /* custom logo image properties in nested div */
+    display: block;
+    width: auto; /* ultimately affects the full toolbar height */
+    height: 55px;
+    padding: 15px 30px 10px;  /* top left+right bottom padding */   
+}
+#logo .about-section {
+    background: rgba(0,0,0,0.85); /* overlay background color */
+    color: #fff; /* text color */
+    transition: opacity .3s;
+    opacity: 0;
+    
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0; /* overlay text positioning */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo:hover .about-section{
+    opacity: 1;
+}
+
+.mat-flat-button { /* toolbar section buttons */
+    background-color: black;
+     /* vertically center text with logo without stretching button size*/
+}
+
+a { /* toolbar section button text properties */
+    color: white; 
+    font-size: 18px;
+    text-align: center;
+}
+a:hover { /* color that section button text animation changes to */
+    color: #Ffdab9ff; 
+}
+.soft-colorchange { /* toolbar section button text color animation */
+    -webkit-transition: color .4s linear;
+    -moz-transition: color .4s linear;
+    -ms-transition: color .4s linear;
+    -o-transition: color .4s linear;
+    transition: color .4s linear;
+}
+
+
+img { /* control specific image sizes via class selectors */
+    max-width: auto;
+    max-height: auto;
+}
+
+/* page content below toolbar ------------------------- */
+body { /* page content */
+    background-color: rgb(9, 9, 9);
+    width: 100%; /* necessary for background-color to be full width w/o horizontal scrollbar */
+    height: auto;
+}
+
+p { /* paragraph text */
+    text-align: center;
+}
+
+h1 { /* header text */
+    font-size: 25px;
+    
+    text-align: center;
+}
+
+drag-scroll .carousellandingvideo { /*landing carousel for video section */
+    background-color: aqua; /* temporary color to check margins */
+}
+
+.carousellandingphoto img { /*image properties of landing carousel for photo section */
+    width: 400px;
+    height: auto;
+}
+
+drag-scroll .carousellandingphoto { /*landing carousel for photo section */
+    background-color: aqua; /* temporary color to check margins */
+    width: 100px; /*400px is 1 slide photo (w/ height 800px), auto extends slide photos to page width */
+    height: auto;
+    
+}
+
+

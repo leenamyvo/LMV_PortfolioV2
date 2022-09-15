@@ -1,0 +1,129 @@
+<!-- -->
+
+<!-- custom toolbar, height adjustable ------------------------------------->
+<div class="customtoolbar">
+    <!-- order of elements below matter for toolbar! -->
+    <a id="section#1" class="soft-colorchange" mat-flat-button routerLink="/photo"> photo </a>
+    <a id="section#2" class="soft-colorchange" mat-flat-button [routerLink]="'/video'"> video </a>
+    <a id="section#3" class="soft-colorchange" mat-flat-button [routerLink]="'/design'"> design </a>
+    <a id="logo">
+        <img src="assets/lmvcenter.png">
+        <div class="about-section">about me</div>
+    </a>
+    <a id="section#4" class="soft-colorchange" mat-flat-button [routerLink]="'/art'"> art </a>
+    <a id="section#5" class="soft-colorchange" mat-flat-button [routerLink]="'/diy'"> diy </a>
+    <a id="section#6" class="soft-colorchange" mat-flat-button [routerLink]="'/food'"> food </a>
+</div>
+
+<!-- landing page content below toolbar ------------------------------------>
+<body>
+
+    <!-- fix for fixed toolbar position without covering up 1st header and homepage description -->
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- homepage description before slideshow content -->
+    <p> welcome! scroll below for the latest works </p>
+    <br>
+
+    <!-- image carousel - photo section -->
+    <h1>latest photos</h1>
+    <drag-scroll #navbuttons class="carousellandingphoto">
+        <img drag-scroll-item src="assets/parents_2021/dad1.jpg">
+        <img drag-scroll-item src="assets/parents_2021/dad3.jpg">
+        <img drag-scroll-item src="assets/parents_2021/mom1.jpg">
+        <img drag-scroll-item src="assets/parents_2021/mom2.jpg">
+        <img drag-scroll-item src="assets/parents_2021/mom3.jpg">
+        <img drag-scroll-item src="assets/parents_2021/mom4.jpg">
+    </drag-scroll>
+    <br>
+    <br>
+    <br>
+
+    <!-- image carousel - video section -->
+    <h1>latest videos</h1>
+    <drag-scroll #navbuttons class="carousellandingvideo">
+        <object drag-scroll-item width="640" height="360" data="https://www.youtube-nocookie.com/embed/videoseries?list=PLkXgQC0tDy1El4QJ8ccVbq8FIasMga1bA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></object>        
+        <object drag-scroll-item width="640" height="360" data="https://www.youtube-nocookie.com/embed/videoseries?list=PLkXgQC0tDy1El4QJ8ccVbq8FIasMga1bA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></object>        
+        <object drag-scroll-item width="640" height="360" data="https://www.youtube-nocookie.com/embed/videoseries?list=PLkXgQC0tDy1El4QJ8ccVbq8FIasMga1bA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></object>        
+        <object drag-scroll-item width="640" height="360" data="https://www.youtube-nocookie.com/embed/videoseries?list=PLkXgQC0tDy1El4QJ8ccVbq8FIasMga1bA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></object>        
+        <object drag-scroll-item width="640" height="360" data="https://www.youtube-nocookie.com/embed/videoseries?list=PLkXgQC0tDy1El4QJ8ccVbq8FIasMga1bA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></object>        
+        <object drag-scroll-item width="640" height="360" data="https://www.youtube-nocookie.com/embed/videoseries?list=PLkXgQC0tDy1El4QJ8ccVbq8FIasMga1bA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></object>        
+    </drag-scroll>
+    <br>
+    <br>
+    <br>
+
+    <!-- image carousel - photo section -->
+    <h1>latest designs</h1>
+    <drag-scroll #navbuttons class="carousellandingphoto">
+        <img drag-scroll-item src="assets/parents_2021/dad1.jpg">
+        <img drag-scroll-item src="assets/parents_2021/dad2.jpg">
+        <img drag-scroll-item src="assets/parents_2021/dad3.jpg">
+        <img drag-scroll-item src="assets/parents_2021/mom1.jpg">
+        <img drag-scroll-item src="assets/parents_2021/mom2.jpg">
+        <img drag-scroll-item src="assets/parents_2021/mom3.jpg">
+        <img drag-scroll-item src="assets/parents_2021/mom4.jpg">
+    </drag-scroll>
+    <br>
+    <br>
+    <br>
+
+    <!-- image carousel - photo section -->
+    <h1>latest art</h1>
+    <drag-scroll #navbuttons class="carousellandingphoto">
+        <img drag-scroll-item src="assets/parents_2021/dad1.jpg">
+        <img drag-scroll-item src="assets/parents_2021/dad2.jpg">
+        <img drag-scroll-item src="assets/parents_2021/dad3.jpg">
+        <img drag-scroll-item src="assets/parents_2021/mom1.jpg">
+        <img drag-scroll-item src="assets/parents_2021/mom2.jpg">
+        <img drag-scroll-item src="assets/parents_2021/mom3.jpg">
+        <img drag-scroll-item src="assets/parents_2021/mom4.jpg">
+    </drag-scroll>
+    <br>
+    <br>
+    <br>
+
+    <!-- image carousel - diy section -->
+    <h1>latest diy</h1>
+    <drag-scroll #navbuttons class="carousellandingphoto">
+        <img drag-scroll-item src="assets/parents_2021/dad1.jpg">
+        <img drag-scroll-item src="assets/parents_2021/dad2.jpg">
+        <img drag-scroll-item src="assets/parents_2021/dad3.jpg">
+        <img drag-scroll-item src="assets/parents_2021/mom1.jpg">
+        <img drag-scroll-item src="assets/parents_2021/mom2.jpg">
+        <img drag-scroll-item src="assets/parents_2021/mom3.jpg">
+        <img drag-scroll-item src="assets/parents_2021/mom4.jpg">
+    </drag-scroll>
+    <br>
+    <br>
+    <br>
+
+    <!-- image carousel - food section -->
+    <h1>latest food</h1>
+    <drag-scroll #navbuttons class="carousellandingphoto">
+        <img drag-scroll-item src="assets/parents_2021/dad1.jpg">
+        <img drag-scroll-item src="assets/parents_2021/dad2.jpg">
+        <img drag-scroll-item src="assets/parents_2021/dad3.jpg">
+        <img drag-scroll-item src="assets/parents_2021/mom1.jpg">
+        <img drag-scroll-item src="assets/parents_2021/mom2.jpg">
+        <img drag-scroll-item src="assets/parents_2021/mom3.jpg">
+        <img drag-scroll-item src="assets/parents_2021/mom4.jpg">
+    </drag-scroll>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- carousel navigation buttons -->
+    <!-- <button (click)="moveLeft()"><mat-icon>arrow_left</mat-icon></button>
+    <button (click)="moveRight()"><mat-icon>arrow_right</mat-icon></button> -->
+
+
+</body>
+
+
+<router-outlet></router-outlet>

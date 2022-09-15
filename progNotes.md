@@ -103,6 +103,13 @@ NOTES_______________________________
 -LEFTOFF: https://angular.io/guide/router-tutorial
 --at Control nav w UI elements - not changing to new html pages.. 
 
+----V2----
+- used this guide to get restarted: https://www.techiediaries.com/angular-tutorial/
+
+- to get ngx-bootstrap for scrolling bar slideshow working on angular14, had to do: https://stackoverflow.com/questions/72633225/how-to-resolve-ngx-bootstrap-error-in-angular-14
+
+
+
 LEFTOFF TRACKER_____________
 6/9/2022
 -fix: 
