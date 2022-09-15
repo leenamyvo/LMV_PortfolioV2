@@ -40,3 +40,7 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+#manually added
+git-credential-manager/
+install-from-source.sh
