@@ -21,6 +21,7 @@ const routes: Routes = [
   { path: 'food', component: FoodComponent },
   { path: 'photo', component: PhotoComponent },
   { path: 'video', component: VideoComponent},
+  { path: '**', redirectTo: 'error', pathMatch: 'full' },
   { path: 'error', component: ErrorComponent }
 ];
 
