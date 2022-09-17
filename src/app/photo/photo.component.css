@@ -1,0 +1,18 @@
+
+
+/* page content below toolbar ------------------------- */
+body { /* page content */
+    background-color: rgb(9, 9, 9);
+    width: 100%; /* necessary for background-color to be full width w/o horizontal scrollbar */
+    height: auto;
+}
+
+p { /* paragraph text */
+    text-align: center;
+}
+
+h1 { /* header text */
+    font-size: 25px;
+    
+    text-align: center;
+}

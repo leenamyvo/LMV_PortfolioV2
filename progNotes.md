@@ -104,11 +104,18 @@ NOTES_______________________________
 --at Control nav w UI elements - not changing to new html pages.. 
 
 ----V2----
-- used this guide to get restarted: https://www.techiediaries.com/angular-tutorial/
+- used this guide to get restarted: https://www.techiediaries.com/angular-tutorial/ & https://www.techiediaries.com/routing-angular-router/
 
 - to get ngx-bootstrap for scrolling bar slideshow working on angular14, had to do: https://stackoverflow.com/questions/72633225/how-to-resolve-ngx-bootstrap-error-in-angular-14
 
+- reinstalled angular material to fix font styling via: npm i @angular/material
 
+- changed false parameters https://remotestack.io/angular-routing-example-redirect-or-navigate-between-components/ 
+- added router debugging: RouterModule.forRoot(routes, {enableTracing: true}),
+
+- refer to angular routing guide for the 3 steps to route: https://angular.io/guide/router
+
+- imma dumbass. routing and page content loading worked, the text was just blending in with the white background. RIP.
 
 LEFTOFF TRACKER_____________
 6/9/2022
@@ -117,9 +124,10 @@ LEFTOFF TRACKER_____________
 --LINE 15 in home.component.ts : changing default value of dragscroll component attributes [see passing values - https://angular.io/guide/attribute-directives]
 -next day goal: 
 -figure out if header or content is the culprit of not being centered
+-fix header navigation spacing messed up in angular14 update
 -add blank pages to hyperlinked section headers
 -created new git repo LMV_PortfolioV2 to reset routing screw ups on new branch cleanstartRouting instead of master (node v16.17.0 npm v8.19.2 angular v14.2.3)
-
+- REIMPLEMENT ANGULAR CLI GITHUB PAGES DEPLOY in angular.json
 
 IDEATE for future features________
 -where to put 'contact' and 'about' section; as password page? as logo hyperlink pages? as footer hyperlinks?

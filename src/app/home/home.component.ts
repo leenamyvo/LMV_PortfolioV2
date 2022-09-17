@@ -5,7 +5,7 @@ import { DragScrollComponent } from 'ngx-drag-scroll';
 import { ViewChild } from '@angular/core'
 
 @Component({
-  selector: 'app-home', /*changed from app-root*/
+  selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })

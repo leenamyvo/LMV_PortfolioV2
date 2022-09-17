@@ -13,7 +13,6 @@ import { ArtComponent } from './art/art.component';
 import { DiyComponent } from './diy/diy.component';
 import { FoodComponent } from './food/food.component';
 import { DragScrollModule } from 'ngx-drag-scroll';
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,12 +24,13 @@ import { DragScrollModule } from 'ngx-drag-scroll';
     AboutComponent,
     ArtComponent,
     DiyComponent,
-    FoodComponent
+    FoodComponent,
+     
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    DragScrollModule
+    DragScrollModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

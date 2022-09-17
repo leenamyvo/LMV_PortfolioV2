@@ -88,7 +88,7 @@ img { /* control specific image sizes via class selectors */
 
 /* page content below toolbar ------------------------- */
 body { /* page content */
-    background-color: rgb(9, 9, 9);
+    background-color: rgb(10, 10, 10); /* to contrast with the toolbar b b                                                                 */
     width: 100%; /* necessary for background-color to be full width w/o horizontal scrollbar */
     height: auto;
 }

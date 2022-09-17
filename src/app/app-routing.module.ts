@@ -12,8 +12,6 @@ import { PhotoComponent } from './photo/photo.component';
 import { VideoComponent } from './video/video.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'home', pathMatch: 'full' },
-  { path: 'home', component: HomeComponent },
   { path: 'about', component: AboutComponent },
   { path: 'art', component: ArtComponent },
   { path: 'design', component: DesignComponent },
@@ -21,8 +19,8 @@ const routes: Routes = [
   { path: 'food', component: FoodComponent },
   { path: 'photo', component: PhotoComponent },
   { path: 'video', component: VideoComponent},
-  { path: '**', redirectTo: 'error', pathMatch: 'full' },
-  { path: 'error', component: ErrorComponent }
+  { path: '', component: HomeComponent }, 
+  { path: '**', component: ErrorComponent }
 ];
 
 @NgModule({
