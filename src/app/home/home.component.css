@@ -25,15 +25,18 @@ border: 3px solid rgba(43, 42, 41, 0.938);
     height: auto; /* toolbar height */
     position: fixed; /*keeps toolbar at top when scrolling */
     top: 0; /* aligns toolbar to topmost page */
-    
+    font-weight: 400;
+
     /* content spacing placement */
     display: flex;
-    justify-content: center; /* centers links vertically */
     align-items: center; /* centers links vertically */
+    justify-content: center ; /* centers links in middle of page */
+    gap: 30px; /* space between toolbar items */
+    z-index: 5; /* toolbar set to topmost layer */
 }
 
 #logo {
-    display: inline-block;
+    display: flex;
     position: relative;
     height: auto;
 }
@@ -45,7 +48,7 @@ border: 3px solid rgba(43, 42, 41, 0.938);
 }
 #logo .about-section {
     background: rgba(0,0,0,0.85); /* overlay background color */
-    color: #fff; /* text color */
+    color: #Ffdab9ff;  /* text color */
     transition: opacity .3s;
     opacity: 0;
     
@@ -60,7 +63,7 @@ border: 3px solid rgba(43, 42, 41, 0.938);
 }
 
 .mat-flat-button { /* toolbar section buttons */
-    background-color: black;
+    background-color: rgb(202, 179, 179);
      /* vertically center text with logo without stretching button size*/
 }
 
@@ -68,6 +71,7 @@ a { /* toolbar section button text properties */
     color: white; 
     font-size: 18px;
     text-align: center;
+    text-decoration: none;
 }
 a:hover { /* color that section button text animation changes to */
     color: #Ffdab9ff; 
@@ -87,19 +91,46 @@ img { /* control specific image sizes via class selectors */
 }
 
 /* page content below toolbar ------------------------- */
+.verticalline { /* "infinite" vertical line */
+    margin:0 auto;
+    width:1px;
+    height:200px;
+    overflow:hidden;
+    background:rgba(255, 218, 185, 0.5);
+    position:relative;
+}
+.verticalline::before {
+    content:'';
+    display:block;
+    width:5px;
+    height:300px;
+    background:rgba(0, 0, 0);
+    position:absolute;
+    top:-100%;
+    left:0;
+    animation: animate 5s ease-in-out infinite;
+}
+@keyframes animate {
+  0% { top: -100%; }
+  50% { top: 0; }
+  100% { top: 100%; }
+}
+
 body { /* page content */
     background-color: rgb(10, 10, 10); /* to contrast with the toolbar b b                                                                 */
     width: 100%; /* necessary for background-color to be full width w/o horizontal scrollbar */
     height: auto;
+    z-index: 1
 }
 
 p { /* paragraph text */
     text-align: center;
+    font-weight: 400;
+    font-size: 17.5px;
 }
 
 h1 { /* header text */
-    font-size: 25px;
-    
+    font-size: 22px;
     text-align: center;
 }
 
@@ -116,7 +147,4 @@ drag-scroll .carousellandingphoto { /*landing carousel for photo section */
     background-color: aqua; /* temporary color to check margins */
     width: 100px; /*400px is 1 slide photo (w/ height 800px), auto extends slide photos to page width */
     height: auto;
-    
 }
-
-

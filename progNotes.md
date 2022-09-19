@@ -117,20 +117,23 @@ NOTES_______________________________
 
 - imma dumbass. routing and page content loading worked, the text was just blending in with the white background. RIP.
 
+- fixed toolbar centering and finished styling. Toolbar complete! 
+
+- added vertical line animation on homepage background: https://forum.squarespace.com/topic/202884-animated-scroll-line/
+
+-
+
 LEFTOFF TRACKER_____________
-6/9/2022
+9/18/2022
 -fix: 
 --horizontal scrollbar in carousel
 --LINE 15 in home.component.ts : changing default value of dragscroll component attributes [see passing values - https://angular.io/guide/attribute-directives]
+--change homepage font
 -next day goal: 
--figure out if header or content is the culprit of not being centered
--fix header navigation spacing messed up in angular14 update
--add blank pages to hyperlinked section headers
--created new git repo LMV_PortfolioV2 to reset routing screw ups on new branch cleanstartRouting instead of master (node v16.17.0 npm v8.19.2 angular v14.2.3)
-- REIMPLEMENT ANGULAR CLI GITHUB PAGES DEPLOY in angular.json
+--
 
 IDEATE for future features________
--where to put 'contact' and 'about' section; as password page? as logo hyperlink pages? as footer hyperlinks?
+-where to put 'contact' and 'home' section; as password page? as logo hyperlink pages? as footer hyperlinks?
 -color change LMV center logo to 'about' section hyperlink
 
 FUTURE URLs for END GOAL_________

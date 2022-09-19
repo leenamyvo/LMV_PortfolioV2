@@ -1,10 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
 
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;500;600;700;800');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;500;600;700;800');
+
 body { 
     background-color: rgb(0, 0, 0);
     height: 100%; /* size of affected background page color */
     margin: 0; /* for complete black background page */
     
-    font-family: Roboto, "Helvetica Neue", sans-serif; 
+}
+
+h1, body, p, a {
+    font-family: 'Nunito', sans-serif; 
     color: white; /*text color of page content */
 }
+
+h1 {
+    font-weight: 500;
+}
+

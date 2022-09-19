@@ -13,6 +13,7 @@ import { ArtComponent } from './art/art.component';
 import { DiyComponent } from './diy/diy.component';
 import { FoodComponent } from './food/food.component';
 import { DragScrollModule } from 'ngx-drag-scroll';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,6 +32,7 @@ import { DragScrollModule } from 'ngx-drag-scroll';
     BrowserModule,
     AppRoutingModule,
     DragScrollModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

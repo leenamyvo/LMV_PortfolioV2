@@ -5,12 +5,12 @@
     <!-- order of elements below matter for toolbar! -->
     <a id="section#1" class="soft-colorchange" mat-flat-button [routerLink]="'/photo'"> photo </a>
     <a id="section#2" class="soft-colorchange" mat-flat-button [routerLink]="'/video'"> video </a>
-    <a id="section#3" class="soft-colorchange" mat-flat-button [routerLink]="'/design'"> design </a>
+    <a id="section#3" class="soft-colorchange" mat-flat-button [routerLink]="'/art'"> art </a>
     <a id="logo" [routerLink]="'/about'">
         <img src="assets/lmvcenter.png">
         <div class="about-section">about me</div>
     </a>
-    <a id="section#4" class="soft-colorchange" mat-flat-button [routerLink]="'/art'"> art </a>
+    <a id="section#4" class="soft-colorchange" mat-flat-button [routerLink]="'/design'"> design </a>
     <a id="section#5" class="soft-colorchange" mat-flat-button [routerLink]="'/diy'"> diy </a>
     <a id="section#6" class="soft-colorchange" mat-flat-button [routerLink]="'/food'"> food </a>
 </div>
@@ -18,6 +18,9 @@
 <!-- landing page content below toolbar ------------------------------------>
 <body>
 
+    <!-- "infinite" vertical line-->
+    <div class="verticalline"></div>
+    
     <!-- fix for fixed toolbar position without covering up 1st header and homepage description -->
     <br>
     <br>
@@ -25,9 +28,6 @@
     <br>
     <br>
 
-    <!-- homepage description before slideshow content -->
-    <p> welcome! scroll below for the latest works </p>
-    <br>
 
     <!-- image carousel - photo section -->
     <h1>latest photos</h1>
