@@ -119,7 +119,7 @@ NOTES_______________________________
 
 - fixed toolbar centering and finished styling. Toolbar complete! 
 
-- added vertical line animation on homepage background: https://forum.squarespace.com/topic/202884-animated-scroll-line/
+- added vertical line full page height: https://www.quora.com/How-can-I-draw-a-vertical-line-in-HTML5-and-CSS
 
 -
 
@@ -128,7 +128,6 @@ LEFTOFF TRACKER_____________
 -fix: 
 --horizontal scrollbar in carousel
 --LINE 15 in home.component.ts : changing default value of dragscroll component attributes [see passing values - https://angular.io/guide/attribute-directives]
---change homepage font
 -next day goal: 
 --
 
@@ -139,8 +138,6 @@ IDEATE for future features________
 FUTURE URLs for END GOAL_________
 -adding an authentication guard for certain pages
 **https://angular.io/guide/router-tutorial-toh#milestone-5-route-guards
--routing multiple components and 404 page 
-**https://angular.io/guide/router#adding-components-for-routing
 -making toolbar size adjusting responsive
 **https://zoaibkhan.com/blog/create-a-responsive-toolbar-in-angular-using-flex-layout/
 **https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
