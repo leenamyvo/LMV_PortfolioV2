@@ -1,4 +1,3 @@
-
 body { /* page content */
     background-color: rgb(10, 10, 10); /* to contrast with the toolbar b b                                                                 */
     width: 100%; /* necessary for background-color to be full width w/o horizontal scrollbar */
@@ -6,13 +5,98 @@ body { /* page content */
     z-index: 1;
 }
 
-p { /* paragraph text */
-    text-align: center;
-    font-weight: 400;
-    font-size: 17.5px;
+/* infinite vertical line */
+body {position: relative; margin: 0;}
+body::after {content: '';}
+body::after {position: fixed; top: 0; bottom: 0; left: 50%;}
+body::after {z-index: -1;}
+body::after {width: 1px; background: rgba(255, 218, 185, 0.5);}
+
+/* 2-column layout */
+.column {
+    float: left;
+}
+.left {
+    width: 30%;
+}
+.right {
+    width: 70%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
-h1 { /* header text */
-    font-size: 22px;
-    text-align: center;
+/*bio description */
+.right p {
+    padding-left: 30px;
+    padding-top: 5%;
+    font-size: 18px;
+    background-color: rgba(10, 10, 10, .2);
+}
+.right h3 {
+    padding-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.right ul {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.columntitle {
+    float: left;
+    width: 20%;
+}
+.rowtitle:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.columnlist {
+    float: left;
+    width: 20%;
+}
+.rowlist:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.columntitle:nth-child(4) {
+    border-left-style: solid;
+    border-left-color: rgba(255, 218, 185, .75);
+    border-left-width: 1px;
+}
+.columnlist:nth-child(4) {
+    border-left-style: solid;
+    border-left-color: rgba(255, 218, 185, .75);
+    border-left-width: 1px;
+}
+
+/* bio selfies */
+.left img {
+    width: 100%;
+    padding-top: 25px;  
+}
+.left ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    width: auto;
+}
+.left li {
+    padding: 0;
+}
+
+/* bio image crossfade slideshow */ 
+.left img:nth-child(6) { animation: xfade 18s 0s infinite; }
+.left img:nth-child(5) { animation: xfade 18s 3s infinite; }
+.left img:nth-child(4) { animation: xfade 18s 6s infinite; }
+.left img:nth-child(3) { animation: xfade 18s 9s infinite; }
+.left img:nth-child(2) { animation: xfade 18s 12s infinite; }
+.left img:nth-child(1) { animation: xfade 18s 15s infinite; }
+@keyframes xfade {
+    17% { opacity:1; }
+    25% { opacity:0; }
+    92% { opacity:0; }
 }

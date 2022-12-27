@@ -121,29 +121,37 @@ NOTES_______________________________
 
 - added vertical line full page height: https://www.quora.com/How-can-I-draw-a-vertical-line-in-HTML5-and-CSS
 
--
+- added homepage header text contrast: https://www.codesdope.com/blog/article/25-creative-css3-text-shadow-effects-you-cant-miss/
+
+-added homepage navigation route button on individual pages
+
+- added bio page content: 
+--https://codedamn.com/news/frontend/how-to-put-image-and-text-side-by-side-in-html
+--https://codepen.io/adamg511/pen/DooJvx?editors=1100
+--https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns_unequal
+--https://stackoverflow.com/questions/14310154/how-do-i-set-a-background-color-for-the-width-of-text-not-the-width-of-the-enti
+
+
 
 LEFTOFF TRACKER_____________
 9/18/2022
 -fix: 
---horizontal scrollbar in carousel
---LINE 15 in home.component.ts : changing default value of dragscroll component attributes [see passing values - https://angular.io/guide/attribute-directives]
--next day goal: 
---
+--food homepage section post embeding resizing and inline troubleshooting
+---try to get orig photos and hyperlink to insta post instead of bulky insta embed defaults
+--remove horizontal scrollbar in carousel
+---LINE 15 in home.component.ts : changing default value of dragscroll component attributes [see passing values - https://angular.io/guide/attribute-directives]
+-
+12/26/2022
+-fix:
+-- page content under home nav text may not be light black as stated 
+--bio content done, now need to finish formatting correctly 
+--readd bio selfies slideshow
 
 IDEATE for future features________
--where to put 'contact' and 'home' section; as password page? as logo hyperlink pages? as footer hyperlinks?
--color change LMV center logo to 'about' section hyperlink
+-
 
 FUTURE URLs for END GOAL_________
--adding an authentication guard for certain pages
-**https://angular.io/guide/router-tutorial-toh#milestone-5-route-guards
--making toolbar size adjusting responsive
-**https://zoaibkhan.com/blog/create-a-responsive-toolbar-in-angular-using-flex-layout/
-**https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
-
-**other carousel options
--https://splidejs.com/guides/getting-started/
+-
 
 TECHNICAL STEPS FOR GOAL_________________________
 1-edit HTML code in component.html file
@@ -189,3 +197,6 @@ https://graphicmama.com/blog/parallax-css-website-examples/
 Other static nonparallax site inspo:
 https://www.tarapixley.com/liftdance
 https://www.antoncristell.com/index.php?page=works
+
+other portfolio sites of mine to aggregate:
+-- https://99designs.com/profiles/leenamyvo

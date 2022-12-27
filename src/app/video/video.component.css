@@ -1,3 +1,9 @@
+/* infinite vertical line */
+body {position: relative; margin: 0;}
+body::after {content: '';}
+body::after {position: fixed; top: 0; bottom: 0; left: 50%;}
+body::after {z-index: -1;}
+body::after {width: 1px; background: rgba(255, 218, 185, 0.5);}
 
 body { /* page content */
     background-color: rgb(10, 10, 10); /* to contrast with the toolbar b b                                                                 */
