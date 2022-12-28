@@ -17,6 +17,7 @@
 <div class="verticalbackground"></div>
 
 <body>
+
     <!-- fix for fixed toolbar position without covering up 1st header and homepage description -->
     <br>
     <br>
@@ -26,8 +27,11 @@
     <!-- homepage navigation button -->
     <a class="soft-colorchange" mat-flat-button [routerLink]="'/'" style="margin:0px 15px 0px 15px; font-size: 15px; font-style: italic;"> ⟵ back to home </a>
 
+    <!-- 2-column layout to split pics and text -->
     <div class="row">
-        <div class="column left" style="background-color: rgb(10, 10, 10, 0);">
+
+        <!-- image slideshow -->
+        <div class="column left" style="background-color: rgb(10, 10, 10, 0); text-align: left;">
             <!-- bio image crossfade slideshow -->
             <img id="pic1" src="assets/bio/selfie1_oct2021.png">
             <img id="pic2" src="assets/bio/selfie2_oct2021.png">
@@ -36,9 +40,11 @@
             <img id="pic5" src="assets/bio/selfie2_dec2021.jpeg">
             <img id="pic6" src="assets/bio/selfie_mar2022.jpg">
         </div>
+
+        <!-- bio description -->
         <div class="column right">
             <p><span style="background-color: rgba(10, 10, 10, 1);"><span style="font-size: 50px;"><b>Hi, I'm Leena!</b></span> <br> 
-            Thank you for exploring my website 😊 This site started as a high-school passion project to (1) challenge myself to learn web development and to (2) merge my various interests+skills into one accessible portfolio. 
+            Thank you for exploring my website 😊 This is all self-taught, so please pardon any imperfections. This site started as a high-school passion project to (1) challenge myself to learn web development and to (2) merge my various interests+skills into one accessible portfolio. 
             From Wix to Angular (currently), to whatever's next; This site will evolve as I evolve in life 💕 
             <br><br> As I was learning new abilities, I realized that I wanted to use my site as a window to help others see the process behind my works, in hopes of inspiring them. On social media, it's easy to feel small and start comparing one's abilities to others' advancements. 
             I aimed to document my learning journey and discuss my works in great detail-- something social media couldn't do meaningfully nor best. It helps to remember that each 'talented' person started from nothing. I believe anyone can develop an ability they didn't think they could before. Every finished complicated-looking product is made up of simple layers/processes -- so, take it step-by-step... then,
@@ -132,6 +138,7 @@
                     <div class="columnlist">
                         <ul>
                             <li>Arduino / RPi & IoT</li>
+                            <li>mechatronics</li>
                             <li>ethical hacking</li>     
                             <li>digital drawing</li> 
                             <li>music production</li>
@@ -142,17 +149,25 @@
                             <li>home improvement DIY</li>    
                             <br>
                             <br>
-                            <br>
                             <br>                  
                             <br>
                         </ul>
                     </div>
                 </div>
 
-            <p style="padding-left: 30px; padding-top: 0;"><span style="background-color: rgb(10, 10, 10, 1);">Send collaboration inquiries, commission requests, and comm̶e̶n̶t̶s̶pliments (positive energy please) to myleena.v@gmail.com</span></p>  
+            <p style="padding-left: 30px; padding-top: 1%;"><span style="background-color: rgb(10, 10, 10, 1);">Send collaboration inquiries, commission requests, and comm̶e̶n̶t̶s̶pliments (positive energy please) to my email located in the footer.</span></p>  
         
         </div>
-        
-
     </div> 
+
+    <!-- footer -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <footer class="footer">
+        <a href="https://mailhide.io/e/CqsApbTB" class="fa fa-envelope"></a>
+        <a href="https://www.linkedin.com/in/leenamyvo/" class="fa fa-linkedin"></a>
+        <a href="https://github.com/leenamyvo/LMV_PortfolioV2" class="fa fa-github"></a>
+        <a href="https://www.youtube.com/channel/UCX33znNo-Eh3FRSjk8NceAg" class="fa fa-youtube-play"></a>
+        <br> © {{currentyear}} Leena My Vo All Rights Reserved | Angular site by LMV | Hosted by GitHub Pages
+    </footer>
+
 </body>

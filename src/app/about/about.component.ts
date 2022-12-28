@@ -12,4 +12,7 @@ export class AboutComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  // footer year auto-update
+  currentyear: number = new Date().getFullYear();
+
 }

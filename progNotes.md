@@ -131,6 +131,14 @@ NOTES_______________________________
 --https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns_unequal
 --https://stackoverflow.com/questions/14310154/how-do-i-set-a-background-color-for-the-width-of-text-not-the-width-of-the-enti
 
+-finished bio page 
+
+-added footer: 
+--https://css-tricks.com/couple-takes-sticky-footer/
+--https://stackoverflow.com/questions/52069833/how-to-get-the-current-year-using-typescript-in-angular6
+--https://www.w3schools.com/howto/howto_css_social_media_buttons.asp
+--https://stackoverflow.com/questions/37947608/making-own-icon-and-adding-hyperlink
+--https://mailhide.io/en/success
 
 
 LEFTOFF TRACKER_____________
