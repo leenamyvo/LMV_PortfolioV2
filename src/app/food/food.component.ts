@@ -12,4 +12,7 @@ export class FoodComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  // footer year auto-update
+  currentyear: number = new Date().getFullYear();
+
 }

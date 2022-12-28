@@ -6,6 +6,13 @@ body { /* page content */
     z-index: 1;
 }
 
+/* infinite vertical line */
+body {position: relative; margin: 0;}
+body::after {content: '';}
+body::after {position: fixed; top: 0; bottom: 0; left: 50%;}
+body::after {z-index: -1;}
+body::after {width: 1px; background: rgba(255, 218, 185, 0.5);}
+
 p { /* paragraph text */
     text-align: center;
     font-weight: 400;
@@ -15,4 +22,25 @@ p { /* paragraph text */
 h1 { /* header text */
     font-size: 22px;
     text-align: center;
+}
+
+/* footer */
+.footer {
+    flex-shrink: 0;
+    padding: 10px;
+    background-color:rgb(0, 0, 0);
+
+    color: rgba(255, 218, 185, .7);
+    font-size: 13px;
+    text-align: center;
+}
+.fa {
+    margin: 0px 20px 0px;
+    color: rgba(255, 218, 185, .7);
+    width: 30px;
+
+    font-size: 20px;
+}
+.fa:hover {
+    opacity: 0.5;
 }

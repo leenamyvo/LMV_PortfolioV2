@@ -36,5 +36,7 @@ export class HomeComponent implements OnInit{
     }, 0);
   }
 
+  // footer year auto-update
+  currentyear: number = new Date().getFullYear();
 
 }
