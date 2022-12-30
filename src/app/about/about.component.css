@@ -73,7 +73,7 @@ body::after {width: 1px; background: rgba(255, 218, 185, 0.5);}
     border-left-width: 1px;
 }
 .right ul li {
-    background-color: rgba(10, 10, 10, 1);
+    text-shadow: 3px 3px 20px black, -2px 1px 20px black;
 }
 
 /* bio selfies */

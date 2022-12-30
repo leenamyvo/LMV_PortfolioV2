@@ -140,6 +140,11 @@ NOTES_______________________________
 --https://stackoverflow.com/questions/37947608/making-own-icon-and-adding-hyperlink
 --https://mailhide.io/en/success
 
+-embedding posts of projects on pages:
+--https://developers.facebook.com/docs/plugins/embedded-posts/
+--https://yoast.com/how-to-make-youtube-videos-responsive/
+
+
 
 LEFTOFF TRACKER_____________
 9/18/2022
@@ -151,9 +156,7 @@ LEFTOFF TRACKER_____________
 -
 12/26/2022
 -fix:
--- page content under home nav text may not be light black as stated 
---bio content done, now need to finish formatting correctly 
---readd bio selfies slideshow
+--
 
 IDEATE for future features________
 -
