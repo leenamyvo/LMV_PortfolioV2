@@ -156,6 +156,7 @@ LEFTOFF TRACKER_____________
 -
 12/28/2022
 -fix:
+--food page loads upon refresh, research whatever chris mentioned for site loading readiness
 --try kooyal aggregator vs curator.io bc curator.io doesn't show all my posts for unknown reason
 
 
