@@ -23,7 +23,7 @@ body::after {width: 1px; background: rgba(255, 218, 185, 0.5);}
     width: 70%;
 }
 .row {
-    padding-top: 2%;
+    padding-top: 30px;
 }
 .row:after {
     content: "";

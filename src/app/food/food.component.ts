@@ -14,5 +14,4 @@ export class FoodComponent implements OnInit {
 
   // footer year auto-update
   currentyear: number = new Date().getFullYear();
-
 }

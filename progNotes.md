@@ -154,9 +154,10 @@ LEFTOFF TRACKER_____________
 --remove horizontal scrollbar in carousel
 ---LINE 15 in home.component.ts : changing default value of dragscroll component attributes [see passing values - https://angular.io/guide/attribute-directives]
 -
-12/26/2022
+12/28/2022
 -fix:
---
+--put footer CSS in styles.css for efficient code
+--try kooyal aggregator vs curator.io
 
 IDEATE for future features________
 -
