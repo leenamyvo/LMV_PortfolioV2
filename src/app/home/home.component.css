@@ -1,13 +1,6 @@
 /**/
 
 /* page content below toolbar ------------------------- */
-/* infinite vertical line */
-body {position: relative; margin: 0;}
-body::after {content: '';}
-body::after {position: fixed; top: 0; bottom: 0; left: 50%;}
-body::after {z-index: -1;}
-body::after {width: 1px; background: rgba(255, 218, 185, 0.5);}
-
 img { /* control specific image sizes via class selectors */
     max-width: auto;
     max-height: auto;

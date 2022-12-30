@@ -3,25 +3,20 @@ body { /* page content */
     background-color: rgb(10, 10, 10); /* to contrast with the toolbar b b                                                                 */
     width: 100%; /* necessary for background-color to be full width w/o horizontal scrollbar */
     height: auto;
-    z-index: 1
+    z-index: 1;
 }
-
-/* infinite vertical line */
-body {position: relative; margin: 0;}
-body::after {content: '';}
-body::after {position: fixed; top: 0; bottom: 0; left: 50%;}
-body::after {z-index: -1;}
-body::after {width: 1px; background: rgba(255, 218, 185, 0.5);}
 
 p { /* paragraph text */
     text-align: center;
     margin-top: 0;
+    text-shadow: 3px 3px 20px black, -2px 1px 20px black;
 }
 
 h3 { /* header text */
     font-size: 22px;
     text-align: center;
     margin-bottom: 0;
+    text-shadow: 3px 3px 20px black, -2px 1px 20px black;
 }
 
 #curator-feed-default-feed-layout {

@@ -20,8 +20,32 @@
     <br>
     <br>
     <br>
-    <br>
 
-    <p>error works!</p>
+    <!-- homepage navigation button -->
+    <a class="soft-colorchange" mat-flat-button [routerLink]="'/'" style="margin: 0px 15px 0px 15px; font-size: 15px; font-style: italic;"> ⟵ back to home </a>
     
+    <!-- 2-column layout -->
+    <div class="row">
+        <div class="col pic">
+            <img src="assets/error_2021/error1.jpg"> 
+        </div>
+        <div class="col text">
+            <p><span style="font-size: 50px; line-height: 70px;"><b>Hey, you look lost!</b></span>
+            <br><br>To be redirected to an existing page, do any of the following: 
+            <br><br> &#x2022; Click on the <b><i> ⟵ back to home</i></b> hyperlink located at the top left of the page to be redirected
+            <br><br> &#x2022; Click on any section hyperlink in the toolbar above
+            </p>
+        </div>
+    </div>
+    
+    <!-- footer -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <footer class="footer">
+        <a href="https://mailhide.io/e/CqsApbTB" class="fa fa-envelope"></a>
+        <a href="https://www.linkedin.com/in/leenamyvo/" class="fa fa-linkedin"></a>
+        <a href="https://github.com/leenamyvo/LMV_PortfolioV2" class="fa fa-github"></a>
+        <a href="https://www.youtube.com/channel/UCX33znNo-Eh3FRSjk8NceAg" class="fa fa-youtube-play"></a>
+        <br> © {{currentyear}} Leena My Vo All Rights Reserved | Angular site by LMV | Hosted by GitHub Pages
+    </footer>
+
 </body>

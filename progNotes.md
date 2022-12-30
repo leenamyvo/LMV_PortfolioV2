@@ -135,6 +135,7 @@ NOTES_______________________________
 
 -added footer: 
 --https://css-tricks.com/couple-takes-sticky-footer/
+--https://css-tricks.com/a-clever-sticky-footer-technique/
 --https://stackoverflow.com/questions/52069833/how-to-get-the-current-year-using-typescript-in-angular6
 --https://www.w3schools.com/howto/howto_css_social_media_buttons.asp
 --https://stackoverflow.com/questions/37947608/making-own-icon-and-adding-hyperlink
@@ -144,6 +145,7 @@ NOTES_______________________________
 --https://developers.facebook.com/docs/plugins/embedded-posts/
 --https://yoast.com/how-to-make-youtube-videos-responsive/
 
+--moved toolbar, footer, and background line to styles.css
 
 
 LEFTOFF TRACKER_____________
@@ -158,7 +160,8 @@ LEFTOFF TRACKER_____________
 -fix:
 --food page loads upon refresh, research whatever chris mentioned for site loading readiness
 --try kooyal aggregator vs curator.io bc curator.io doesn't show all my posts for unknown reason
-
+--double check sticky footer actually stays at bottom when page resized
+--double check content text has black text shadow
 
 IDEATE for future features________
 -
