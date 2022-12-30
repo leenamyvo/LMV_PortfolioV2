@@ -156,8 +156,8 @@ LEFTOFF TRACKER_____________
 -
 12/28/2022
 -fix:
---put footer CSS in styles.css for efficient code
---try kooyal aggregator vs curator.io
+--try kooyal aggregator vs curator.io bc curator.io doesn't show all my posts for unknown reason
+
 
 IDEATE for future features________
 -
