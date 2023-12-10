@@ -183,6 +183,11 @@ TECHNICAL STEPS FOR GOAL_________________________
 4-run Angular app via ng serve -o --port [local IP of serving PC]
 **referred to https://www.geeksforgeeks.org/components-in-angular-8/
 
+GIT STEPS_____________________________
+git add --all
+git commit -m "[message]"
+git push origin cleanstartRouting
+
 COMMANDS USED_______________________________________
 https://medium.com/@creativenitishk/how-to-run-local-angular-apps-on-mobile-device-61831bbb6935
 to see web app on mobile on same wifi:
