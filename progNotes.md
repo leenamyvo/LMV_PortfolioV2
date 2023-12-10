@@ -149,17 +149,23 @@ NOTES_______________________________
 
 
 LEFTOFF TRACKER_____________
+12/10/2023
+-fix: 
+-- mobile view: top header not css responsive/centered afer pressing diy header prob need to format fb post iframe
+-- copyright music from YT videos not showing embed preview; bypass or have hyperlink image screencapture of video?
+
 9/18/2022
 -fix: 
---food homepage section post embeding resizing and inline troubleshooting
+--food homepage section post embedding resizing and inline troubleshooting
 ---try to get orig photos and hyperlink to insta post instead of bulky insta embed defaults
 --remove horizontal scrollbar in carousel
 ---LINE 15 in home.component.ts : changing default value of dragscroll component attributes [see passing values - https://angular.io/guide/attribute-directives]
--
+---edited boolean from false to true in file ngx-drag-scroll.component.mjs in folders: lmvAngular/node_modules/ngx-drag-scroll/fesm2015 , /fesm2020 , /esm2020/lib
+
 12/28/2022
 -fix:
---food page loads upon refresh, research whatever chris mentioned for site loading readiness
---try kooyal aggregator vs curator.io bc curator.io doesn't show all my posts for unknown reason
+--look into instagram rss creator instead of curator.io to only get my posts: 
+----https://rss.app/blog/how-to-create-instagram-rss-feeds-pGHJKx
 --double check sticky footer actually stays at bottom when page resized
 --double check content text has black text shadow
 
@@ -174,10 +180,17 @@ TECHNICAL STEPS FOR GOAL_________________________
 2-edit CSS code in component.css file
 3-edit corresponding code (imports, exports, and modules) in component.ts file
 3-ng build
-4-run Angular app via ng serve -o
+4-run Angular app via ng serve -o --port [local IP of serving PC]
 **referred to https://www.geeksforgeeks.org/components-in-angular-8/
 
 COMMANDS USED_______________________________________
+https://medium.com/@creativenitishk/how-to-run-local-angular-apps-on-mobile-device-61831bbb6935
+to see web app on mobile on same wifi:
+ng serve --host 0.0.0.0
+on all device, type in browser: 
+
+Alt+Esc = Switch between windows in the current workspace. Hold down Shift for reverse order.
+
 show commit history -> git log
 exit -> q or z
 

@@ -1,5 +1,6 @@
 /**/
 
+
 /* page content below toolbar ------------------------- */
 img { /* control specific image sizes via class selectors */
     max-width: auto;
@@ -10,7 +11,7 @@ body { /* page content */
     background-color: rgb(10, 10, 10); /* to contrast with the toolbar */
     width: 100%; /* necessary for background-color to be full width w/o horizontal scrollbar */
     height: auto;
-    z-index: 2
+    z-index: 2;
 }
 
 p { /* paragraph text */

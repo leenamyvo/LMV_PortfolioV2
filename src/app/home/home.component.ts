@@ -11,7 +11,7 @@ import { ViewChild } from '@angular/core'
 })
 export class HomeComponent implements OnInit{
 
-  /* ngx-drag-scroll carousel - change defualt values as desired */
+  /* ngx-drag-scroll carousel - change default values as desired */
   // @Input() scrollbar-hidden = 'true';
 
   constructor() {}
